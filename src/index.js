@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterSwitch } from "./BrowserRouter";
+import "./styles.css"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
