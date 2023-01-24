@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "../Navbar";
+import { Link } from "react-router-dom";
 
 const Image = require("../images/cart.png");
 
@@ -59,11 +60,11 @@ const Cart = () => {
               ) / 100}
             </span>
           </div>
-          <a href="/">
+          <Link to="/">
             <button onClick={finish} className="cart-final">
               Buy
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </>

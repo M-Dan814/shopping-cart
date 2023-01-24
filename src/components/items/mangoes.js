@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "../Navbar";
+import { Link } from "react-router-dom";
 
 const Image = require("../images/mangoes.jpg");
 const Mangoes = () => {
@@ -72,7 +73,7 @@ const Mangoes = () => {
           ) : (
             <button disabled>+</button>
           )}
-          <a href="/cart">To Shopping Cart</a>
+                    <Link to="/cart">To Shopping Cart</Link>
         </div>
       </div>
     </>

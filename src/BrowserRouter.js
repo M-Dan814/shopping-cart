@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import { Home } from "./components/Home";
 import { Apple } from "./components/items/apple";
 import { Banana } from "./components/items/bananas";
@@ -16,7 +16,7 @@ import { Watermelons } from "./components/items/watermelons";
 
 const RouterSwitch = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
@@ -33,7 +33,7 @@ const RouterSwitch = () => {
         <Route path="/tomatoes" element={<Tomatoes />} />
         <Route path="/watermelons" element={<Watermelons />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
