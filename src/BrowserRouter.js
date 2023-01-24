@@ -13,6 +13,7 @@ import { Pineapples } from "./components/items/pineapples";
 import { Strawberries } from "./components/items/strawberries";
 import { Tomatoes } from "./components/items/tomatoes";
 import { Watermelons } from "./components/items/watermelons";
+import { Footer } from "./components/Footer";
 
 const RouterSwitch = () => {
   return (
@@ -33,6 +34,7 @@ const RouterSwitch = () => {
         <Route path="/tomatoes" element={<Tomatoes />} />
         <Route path="/watermelons" element={<Watermelons />} />
       </Routes>
+      <Footer />
     </HashRouter>
   );
 };
