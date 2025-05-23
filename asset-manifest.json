@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.fc229a80.css",
-    "main.js": "/shopping-cart/static/js/main.f59d31fa.js",
-    "static/media/YeonSung-Regular.ttf": "/shopping-cart/static/media/YeonSung-Regular.7ed1d94edc5aa5a9e78a.ttf",
+    "main.css": "/shopping-cart/static/css/main.82c6be15.css",
+    "main.js": "/shopping-cart/static/js/main.baaa1601.js",
     "static/media/pineapples.jpg": "/shopping-cart/static/media/pineapples.39b4d9295ff7961b9512.jpg",
     "static/media/watermelon.jpg": "/shopping-cart/static/media/watermelon.f3b5070930f7d9783cdc.jpg",
     "static/media/grapes.jpg": "/shopping-cart/static/media/grapes.b6516c919503800155f5.jpg",
@@ -11,17 +10,17 @@
     "static/media/Oranges.jpeg": "/shopping-cart/static/media/Oranges.51180e95a7f2e3255208.jpeg",
     "static/media/strawberry.jpg": "/shopping-cart/static/media/strawberry.1845de851cc0ba532775.jpg",
     "static/media/tomatoes.jpg": "/shopping-cart/static/media/tomatoes.458942e63b736652f617.jpg",
-    "static/media/RobotoSlab-Regular.ttf": "/shopping-cart/static/media/RobotoSlab-Regular.39c7af8a5d124ff3c247.ttf",
     "static/media/peaches.jpg": "/shopping-cart/static/media/peaches.f418f9148a979465559e.jpg",
     "static/media/apples.jpg": "/shopping-cart/static/media/apples.3c88e0232a7fee78f64c.jpg",
     "static/media/mangoes.jpg": "/shopping-cart/static/media/mangoes.da44612ca3e3fa120880.jpg",
     "static/media/bananas.jpg": "/shopping-cart/static/media/bananas.f7ce748c181e94800df2.jpg",
+    "static/media/cart.png": "/shopping-cart/static/media/cart.2390d5a1357ee2169c43.png",
     "index.html": "/shopping-cart/index.html",
-    "main.fc229a80.css.map": "/shopping-cart/static/css/main.fc229a80.css.map",
-    "main.f59d31fa.js.map": "/shopping-cart/static/js/main.f59d31fa.js.map"
+    "main.82c6be15.css.map": "/shopping-cart/static/css/main.82c6be15.css.map",
+    "main.baaa1601.js.map": "/shopping-cart/static/js/main.baaa1601.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc229a80.css",
-    "static/js/main.f59d31fa.js"
+    "static/css/main.82c6be15.css",
+    "static/js/main.baaa1601.js"
   ]
 }
